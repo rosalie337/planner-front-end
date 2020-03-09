@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import request from 'superagent';
 
-export default class PlannerLogin extends Component {
+export default class PlannerAppLogin extends Component {
     state = {
         usernameSignIn: '',
         usernameSignUp: '',
